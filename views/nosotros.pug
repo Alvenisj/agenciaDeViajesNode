@@ -1,0 +1,30 @@
+extends ./layouts/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="Imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat, mi in dapibus dignissim, lacus nunc egestas eros, quis tempus dolor augue vitae metus. Nulla mollis fermentum odio. Ut ligula velit, dictum sed leo id, fermentum pellentesque odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a justo lacus.
+
+                p Nulla orci dui, posuere at dui et, efficitur congue lorem. Sed pharetra ante diam, ac eleifend quam rutrum sed. Mauris augue erat, iaculis feugiat ex at, bibendum euismod quam. 
+
+                p Cras aliquam suscipit nunc id posuere. Pellentesque molestie dui ac mauris fermentum viverra. Vestibulum dictum diam purus, sed auctor velit feugiat at. Pellentesque in nunc diam. Fusce elementum molestie ligula eu euismod. Maecenas mattis convallis eros, sit amet pellentesque justo pharetra nec. In tristique et metus vel auctor.
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="Icono seguridad" class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Fusce elementum molestie ligula eu euismod. Maecenas mattis convallis eros, sit amet pellentesque justo pharetra nec. In tristique et metus vel auctor.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="Icono Destinos", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Destinos 
+                    p usce elementum molestie ligula eu euismod. Maecenas mattis convallis eros, sit amet pellentesque justo pharetra nec. In tristique et metus vel auctor.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="Icono Precios", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios 
+                    p usce elementum molestie ligula eu euismod. Maecenas mattis convallis eros, sit amet pellentesque justo pharetra nec. In tristique et metus vel auctor.
